@@ -1,0 +1,16 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    padding: 10px;
+}
+
+.desc {
+    font-size: 15px;
+}
+
+.heading {
+    margin-bottom: 1px;
+}

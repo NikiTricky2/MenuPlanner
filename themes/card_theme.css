@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Fira+Sans&display=swap');
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-image: url("../images/texture.jpg");
+    background-repeat: repeat;
+    background-size: 500px;
+}
+
+.heading {
+    margin-bottom: 1px;
+}
