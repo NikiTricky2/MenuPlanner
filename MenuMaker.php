@@ -23,14 +23,14 @@
         <p>
             <span class="h3-default"> Title<span style="color:red;">*</span> </span>
             <br />
-            <input type="text" placeholder="Enter the title of the menu..." value="MENU" minlength="4" maxlength="15" size="35" name="title" />
+            <input type="text" placeholder="Enter the title of the menu..." value="MENU" minlength="4" maxlength="100" size="35" name="title" />
         </p>
         <p>
             <span class="h3-default">
         Subtitle
         </span>
             <br />
-            <input type="text" placeholder="Enter the subtitle of the menu..." maxlength="30" size="35" name="subtitle" />
+            <input type="text" placeholder="Enter the subtitle of the menu..." maxlength="150" size="35" name="subtitle" />
         </p>
         <p>
             <span class="h3-default">
@@ -57,9 +57,9 @@
             <br>
             <input type="button" value="add" onclick="AddTextBox()" class="button" />
             <br>
-            <input name="items[]" type="text" style="font-size:20px;" placeholder="Title" required/><span style="color:red">*</span><br><input name="desc[]" type="text" placeholder="Description" /><br><input name="groups[]" type="text" placeholder="Group"
+            <input maxlength="50" name="items[]" type="text" style="font-size:20px;" placeholder="Title" required/><span style="color:red">*</span><br><input name="desc[]" type="text" placeholder="Description" /><br><input name="groups[]" type="text" placeholder="Group"
                 required/><span style="color:red">*</span><br><br>
-            <input name="items[]" type="text" style="font-size:20px;" placeholder="Title" required/><span style="color:red">*</span><br><input name="desc[]" type="text" placeholder="Description" /><br><input name="groups[]" type="text" placeholder="Group"
+            <input maxlength="50" name="items[]" type="text" style="font-size:20px;" placeholder="Title" required/><span style="color:red">*</span><br><input name="desc[]" type="text" placeholder="Description" /><br><input name="groups[]" type="text" placeholder="Group"
                 required/><span style="color:red">*</span><br><br>
             <div id="TextBoxContainer"></div>
             <br>
