@@ -1,5 +1,5 @@
 function GetDynamicTextBox(value) {
-    return '<input name = "items[]" type="text" value="' + value + '" style="font-size:20px;" placeholder="Title"  required/><span style="color:red">*</span><input type="button" value="Remove" onclick = "RemoveTextBox(this)" class="neon-blue button"/><br><input name = "desc[]" type="text" placeholder="Description"/><br><input name = "groups[]" type="text" placeholder="Group" required/><span style="color:red">*</span><br><br>';
+    return '<input maxlength="50" name = "items[]" type="text" value="' + value + '" style="font-size:20px;" placeholder="Title"  required/><span style="color:red">*</span><input type="button" value="Remove" onclick = "RemoveTextBox(this)" class="neon-blue button"/><br><input name = "desc[]" type="text" placeholder="Description"/><br><input name = "groups[]" type="text" placeholder="Group" required/><span style="color:red">*</span><br><br>';
 }
 
 function AddTextBox() {
